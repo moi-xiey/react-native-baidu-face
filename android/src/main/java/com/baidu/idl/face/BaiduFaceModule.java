@@ -91,7 +91,7 @@ public class BaiduFaceModule extends ReactContextBaseJavaModule implements Activ
 
     @ReactMethod
     public void init() {
-        FaceSDKManager.getInstance().initialize(this.context, BuildConfig.LICENSE_ID, BuildConfig.LICENSE_FILE_NAME);
+        FaceSDKManager.getInstance().initialize(context, BuildConfig.LICENSE_ID, BuildConfig.LICENSE_FILE_NAME);
     }
 
     /**
